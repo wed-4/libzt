@@ -1,17 +1,17 @@
 <div align="center">
 
 <h1>ZeroTier Sockets</h1>
-Part of the ZeroTier SDK
+ZeroTier SDKの一部
 <img alt="" src="https://i.imgur.com/BwSHwE3.png" class="doxyhidden"> </img>
 
-Peer-to-peer and cross-platform encrypted connections built right into your app or service. No drivers, no root, and no host configuration.
+クロスプラットフォームなP2P暗号化接続を、貴方のアプリケーションやサービスに直接組み込むことができます。ドライバ、ルート、ホスト構成は不要です。
 
 <br>
 
-<a href="./examples">Examples</a> |
-<a href="https://docs.zerotier.com/sockets/tutorial.html">Documentation</a> |
-<a href="https://discuss.zerotier.com/">Community</a> |
-<a href="https://github.com/zerotier/libzt/issues">Report a Bug</a>
+<a href="./examples">例</a> |
+<a href="https://docs.zerotier.com/sockets/tutorial.html">参考</a> |
+<a href="https://discuss.zerotier.com/">コミュニティ</a> |
+<a href="https://github.com/zerotier/libzt/issues">バグを知らせる</a>
 
 
 <a href="https://www.twitter.com/zerotier"><img alt="@zerotier" src="https://img.shields.io/twitter/follow/zerotier?style=social"/></a>
@@ -23,12 +23,12 @@ Peer-to-peer and cross-platform encrypted connections built right into your app 
 <a href="https://github.com/zerotier/libzt/actions"><img alt="Build Status (master branch)" src="https://img.shields.io/github/workflow/status/zerotier/libzt/CMake/master"/></a>
 </div>
 
-| Language/Platform | Installation | Version | Example |
+| 言語/プラットフォーム | インストール方法 | バージョン | 例 |
 |:----------|:---------|:---|:---|
-| C/C++  | [Build from source](#build-from-source) | <img alt="version" src="https://img.shields.io/github/v/tag/zerotier/libzt?label="/></a>| [C/C++](./examples/c)  |
+| C/C++  | [ソースコードからビルド](#build-from-source) | <img alt="version" src="https://img.shields.io/github/v/tag/zerotier/libzt?label="/></a>| [C/C++](./examples/c)  |
 | C#  | `Install-Package ZeroTier.Sockets` |<a href="https://www.nuget.org/packages/ZeroTier.Sockets/"><img src="https://img.shields.io/github/v/tag/zerotier/libzt?label=NuGet"/></a> |[C#](./examples/csharp)  |
 | Python  | `pip install libzt`|<a href="https://pypi.org/project/libzt/"><img src="https://img.shields.io/pypi/v/libzt?label=PyPI"/></a> |[Python](./examples/python)  |
-| Rust  | See: [crates.io/crates/libzt](https://crates.io/crates/libzt) | <img alt="version" src="https://img.shields.io/crates/v/libzt?color=blue"/>|[Rust](./examples/rust)  |
+| Rust  | [crates.io/crates/libzt](https://crates.io/crates/libzt) を参照| <img alt="version" src="https://img.shields.io/crates/v/libzt?color=blue"/>|[Rust](./examples/rust)  |
 | Java  | `./build.sh host-jar` |<img src="https://img.shields.io/github/v/tag/zerotier/libzt?label="/> |[Java](./examples/java)  |
 | Linux  | `brew install zerotier/tap/libzt` | <img alt="version" src="https://img.shields.io/github/v/tag/zerotier/libzt?label="/></a>| [C/C++](./examples/c)  |
 | macOS  | `brew install zerotier/tap/libzt`| <img alt="version" src="https://img.shields.io/github/v/tag/zerotier/libzt?label=Homebrew"/></a>| [C/C++](./examples/c)  |
